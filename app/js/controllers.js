@@ -31,7 +31,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngDialog'])
 					return getRow(i);
 				},
 				header: function(){
-				    return getHeader(j);
+				    return getHeader(j+3);
 				}
       		}
     	});
